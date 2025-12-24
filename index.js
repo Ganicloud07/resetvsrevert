@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 });
 
 // Sample API
-app.get("/health", (req, res) => {
+app.get("/unhealth", (req, res) => {
   res.json({
     status: "bad",
     uptime: process.uptime()
