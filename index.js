@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
 // Sample API
 app.get("/health", (req, res) => {
   res.json({
-    status: "OK",
+    status: "bad",
     uptime: process.uptime()
   });
 });
